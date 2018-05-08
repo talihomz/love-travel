@@ -1,0 +1,37 @@
+#intro {
+  background: $purple-1;
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+  
+    div {
+      display: inline-block;
+    }
+  
+    .logo{
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      span {
+        color: $white;
+        font-size: 22px;
+        margin-left: 16px;
+      }
+    }
+  
+    .auth{
+      
+      .btn-login {
+        margin-right: 36px;
+      }
+  
+      .btn-create {
+        border: solid 1px $blueish;
+        color: $blueish;
+      }
+    }
+  }
+}

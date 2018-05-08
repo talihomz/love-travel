@@ -1,0 +1,32 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+ 
+  @media only screen and (min-width: $xs) {
+         width: 750px;
+     }
+ 
+  @media only screen and (min-width: $sm) {
+         width: 970px;
+     }
+ 
+  @media only screen and (min-width: $md) {
+         width: 1170px;
+     }
+ }
+
+ .btn {
+     background: transparent;
+     color: $white;
+     font-size: 18px;
+     border: none;
+     padding: 16px 28px;
+     text-align: center;
+     border-radius: 4px;
+
+     &:focus {
+         outline: none;
+     }
+ }

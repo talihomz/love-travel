@@ -1,11 +1,15 @@
 @import 'variables';
 @import 'colors';
 @import 'general';
-@import 'nav';
+@import 'intro';
 
 body, html {
   height: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
 }

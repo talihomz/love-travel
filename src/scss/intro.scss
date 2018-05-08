@@ -1,0 +1,94 @@
+#intro {
+  background: $purple-1;
+  padding-bottom: 64px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+
+    div {
+      display: inline-block;
+    }
+
+    .logo{
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      span {
+        color: $white;
+        font-size: 22px;
+        margin-left: 16px;
+      }
+    }
+
+    .auth{
+
+      .btn-login {
+        margin-right: 36px;
+      }
+
+      .btn-create {
+        border: solid 1px $blueish;
+        color: $blueish;
+      }
+    }
+  }
+
+  h1 {
+    color: $white;
+    font-size: 84px;
+    margin: 64px 0 12px;
+  }
+
+  h2 {
+    color: $white;
+    font-size: 56px;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  p {
+    color: $white;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .services {
+    display: flex;
+    margin-top: 64px;
+
+    .col-4 {
+      flex: 1;
+      display: flex;
+
+      img {
+        width: 64px;
+        height: 64px;
+      }
+
+      .services-text {
+        flex: 3;
+        padding: 0 12px 0;
+
+        h4 {
+          color: $white;
+          margin: 0;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 22px;
+          word-spacing: 2px;
+        }
+
+        span {
+          text-transform: uppercase;
+          color: $blueish;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

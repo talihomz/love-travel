@@ -1,5 +1,5 @@
 #feature-places {
-  
+
   .row-1 {
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
       .btn-see {
         color: $darkgray;
       }
-    }    
+    }
   }
 
   .row-2 {
@@ -22,25 +22,58 @@
 
     .place {
       margin: 16px;
-      border: solid 1px red;
+      border-radius: 6px;
 
       .place-image {
         background-image: url("http://via.placeholder.com/320x440");
         background-repeat: no-repeat;
-        background-position: center; 
+        background-position: center;
         background-size: cover;
         height: 440px;
         position: relative;
         display: flex;
         align-items: flex-end;
 
-        div {
-          background: red;
+        .place-actions {
+          background: transparent;
           width: 100%;
-          padding: 16px;
+          padding: 30px;
           display: flex;
+
+          span {
+            color: $white;
+            font-size: 22px;
+          }
+
+          .fa-heart {
+            margin-right: 12px;
+            color: $white;
+            font-size: 30px;
+          }
+
+          .fa-bookmark {
+            margin-left: auto;
+            color: $white;
+            font-size: 30px;
+          }
+        }
+      }
+
+      .place-description {
+        padding: 30px;
+        box-shadow: 0 7px 7px -2px $gray-white;
+
+        h3 {
+          margin: 0;
+          color: $darkgray;
         }
 
+        p {
+          color: $gray;
+          text-align: justify;
+          line-height: 24px;
+          font-size: 17px;
+        }
       }
     }
   }

@@ -1,0 +1,47 @@
+#feature-places {
+  
+  .row-1 {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      flex: 1;
+      color: $darkgray;
+    }
+
+    .places-all {
+      .btn-see {
+        color: $darkgray;
+      }
+    }    
+  }
+
+  .row-2 {
+    margin-top: 24px;
+    display: flex;
+
+    .place {
+      margin: 16px;
+      border: solid 1px red;
+
+      .place-image {
+        background-image: url("http://via.placeholder.com/320x440");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        height: 440px;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+
+        div {
+          background: red;
+          width: 100%;
+          padding: 16px;
+          display: flex;
+        }
+
+      }
+    }
+  }
+}

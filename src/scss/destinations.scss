@@ -1,7 +1,7 @@
 #about {
 
   .destinations {
-    height: 600px;
+    height: 100vh;
     display: flex;
     align-items: center;
     background: $black;
@@ -11,7 +11,6 @@
       margin: 0;
       margin-right: auto;
       width: 33%;
-      border: 1px solid red;
 
       p {
         color: $lightgray;
@@ -27,6 +26,7 @@
   }
 
   .client-stories {
+    height: 100vh;
 
     .row-1 {
       display: flex;
@@ -97,7 +97,7 @@
   }
 
   .travel-places {
-    border: 1px solid blue;
+    margin-top: 92px;
     padding-top: 540px;
     padding-bottom: 92px;
     height: 100vh;
@@ -118,5 +118,14 @@
         margin-left: 12px;
       }
     }
+  }
+}
+
+.get-started {
+  margin: 92px 0;
+
+  .inputbox {
+    border: 1px solid $blueish;
+    box-shadow: 0 0 6px $gray-white;
   }
 }

@@ -33,7 +33,7 @@
 
  .inputbox {
    background: $white;
-   padding: 16px;
+   padding: 24px;
    display: flex;
    align-items: center;
    border-radius: 4px;
@@ -64,9 +64,10 @@
 
    .btn {
      background: $blueish;
-     padding: 8px 16px 4px;
+     padding: 12px 18px 6px;
      height: 48px;
      text-transform: uppercase;
      font-weight: bold;
+     box-shadow: 0 0 6px $blueish;
    }
  }

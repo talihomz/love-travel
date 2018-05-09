@@ -1,0 +1,28 @@
+#about {
+
+  .destinations {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: $black;
+    color: $white;
+
+    .info {
+      margin: 0;
+      margin-right: auto;
+      width: 33%;
+      border: 1px solid red;
+
+      p {
+        color: $lightgray;
+        text-align: justify;
+        line-height: 28px;
+      }
+
+      .btn-places {
+        padding-left: 0;
+      }
+    }
+
+  }
+}

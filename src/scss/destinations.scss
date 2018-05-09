@@ -32,12 +32,12 @@
       display: flex;
       align-items: center;
       padding: 92px 16px 0;
-  
+
       h2 {
         flex: 1;
         color: $darkgray;
       }
-  
+
       span,
       fa-long-arrow-alt-right {
         color: $darkgray;
@@ -47,7 +47,7 @@
     .row-2 {
       margin-top: 80px;
       display: flex;
-  
+
       .story {
         border: solid 1px $whitesmoke;
         padding: 48px;
@@ -92,6 +92,30 @@
           line-height: 28px;
           font-size: 18px;
         }
+      }
+    }
+  }
+
+  .travel-places {
+    border: 1px solid blue;
+    padding-top: 540px;
+    padding-bottom: 92px;
+    height: 100vh;
+    background: gray;
+    color: $white;
+
+    h1 {
+      font-size: 84px;
+      margin-top: 0;
+      margin-bottom: 48px;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 22px;
+
+      .fa-long-arrow-alt-right {
+        margin-left: 12px;
       }
     }
   }

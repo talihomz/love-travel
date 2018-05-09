@@ -1,18 +1,19 @@
+#exceptional-houses,
 #feature-places {
 
   .row-1 {
     display: flex;
     align-items: center;
+    padding: 92px 16px 0;
 
     h2 {
       flex: 1;
       color: $darkgray;
     }
 
-    .places-all {
-      .btn-see {
-        color: $darkgray;
-      }
+    span,
+    fa-long-arrow-alt-right {
+      color: $darkgray;
     }
   }
 
@@ -23,6 +24,7 @@
     .place {
       margin: 16px;
       border-radius: 6px;
+      flex: 1;
 
       .place-image {
         background-image: url("http://via.placeholder.com/320x440");
@@ -77,4 +79,8 @@
       }
     }
   }
+}
+
+#exceptional-houses {
+  padding-top: 132px;
 }

@@ -16,10 +16,12 @@
         color: $lightgray;
         text-align: justify;
         line-height: 28px;
+        font-size: 18px;
       }
 
       .btn-places {
         padding-left: 0;
+        font-size: 20px;
       }
     }
 
@@ -45,7 +47,7 @@
     }
 
     .row-2 {
-      margin-top: 80px;
+      margin-top: 20vh;
       display: flex;
 
       .story {
@@ -126,6 +128,6 @@
 
   .inputbox {
     border: 1px solid $blueish;
-    box-shadow: 0 0 6px $gray-white;
+    box-shadow: 0 0 2px $blueish;
   }
 }

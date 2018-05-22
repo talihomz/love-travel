@@ -96,6 +96,7 @@
 @media screen and (max-width: $xs) {
   #intro {
     height: auto;
+    padding-bottom: 32px;
 
     .auth {
       .btn-create {
@@ -114,6 +115,35 @@
     p {
       font-size: 17px;
       line-height: 26px;
+    }
+
+    .services {
+      display: block;
+
+      .col-4 {
+        margin-bottom: 18px;
+        img {
+          width: 64px;
+          height: 64px;
+        }
+
+        .services-text {
+          flex: 3;
+          padding: 0 12px 0;
+
+          p {
+            font-size: 13px;
+            word-spacing: 1px;
+            margin: 6px 0 18px;
+          }
+
+          span {
+            text-transform: uppercase;
+            color: $blueish;
+            font-weight: bold;
+          }
+        }
+      }
     }
   }
 }

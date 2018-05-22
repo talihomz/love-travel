@@ -71,3 +71,20 @@
      box-shadow: 0 3px 9px rgba(0, 220, 228, 0.6);
    }
  }
+
+ @media screen and (max-width: $xs) {
+   .inputbox {
+     padding: 12px;
+     display: block;
+
+     .inputbox-item {
+       input {
+         margin: 12px 0;
+       }
+     }
+
+     .btn {
+       width: 100%;
+     }
+   }
+ }

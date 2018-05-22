@@ -29,14 +29,10 @@
     }
 
     .auth{
-
-      .btn-login {
-        margin-right: 36px;
-      }
-
       .btn-create {
         border: solid 1px $blueish;
         color: $blueish;
+        margin-right: 36px;
       }
     }
   }
@@ -93,6 +89,31 @@
           font-weight: bold;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: $xs) {
+  #intro {
+    height: auto;
+
+    .auth {
+      .btn-create {
+        display: none;
+      }
+    }
+
+    h1 {
+      font-size: 64px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 26px;
     }
   }
 }

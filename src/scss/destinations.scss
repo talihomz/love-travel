@@ -131,3 +131,33 @@
     box-shadow: 0 24px 64px $whitesmoke;
   }
 }
+
+@media screen and (max-width: $xs) {
+  #about {
+    border: 3px solid red;
+
+    .destinations {
+      height: 100vh;
+      padding: 64px 0;
+      align-items: center;
+      background: $black;
+      color: $white;
+
+      .info {
+        width: 100%;
+        text-align: center;
+
+        p {
+          text-align: center;
+          line-height: 28px;
+          font-size: 16px;
+        }
+
+        .btn-places {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

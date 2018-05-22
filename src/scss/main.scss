@@ -1,7 +1,18 @@
-// Sava said we call this general stuff
+@import 'variables';
+@import 'colors';
+@import 'general';
+@import 'intro';
+@import 'feature';
+@import 'destinations';
+@import 'footer';
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
 }

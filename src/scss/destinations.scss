@@ -1,0 +1,133 @@
+#about {
+
+  .destinations {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: $black;
+    color: $white;
+
+    .info {
+      margin: 0;
+      margin-right: auto;
+      width: 33%;
+
+      p {
+        color: $lightgray;
+        text-align: justify;
+        line-height: 28px;
+        font-size: 18px;
+      }
+
+      .btn-places {
+        padding-left: 0;
+        font-size: 20px;
+      }
+    }
+
+  }
+
+  .client-stories {
+    height: 100vh;
+
+    .row-1 {
+      display: flex;
+      align-items: center;
+      padding: 92px 16px 0;
+
+      h2 {
+        flex: 1;
+        color: $darkgray;
+      }
+
+      span,
+      fa-long-arrow-alt-right {
+        color: $darkgray;
+      }
+    }
+
+    .row-2 {
+      margin-top: 20vh;
+      display: flex;
+
+      .story {
+        border: solid 1px $whitesmoke;
+        padding: 48px;
+        margin: 16px;
+        border-radius: 6px;
+        flex: 1;
+        box-shadow: 0 7px 7px -2px $gray-white;
+
+        .header {
+          display: flex;
+
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+          }
+
+          .info {
+            margin-left: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3 {
+              margin: 0;
+              color: $darkgray;
+              font-size: 24px;
+              font-weight: normal;
+            }
+
+            span {
+              margin-top: 8px;
+              color: $lightgray;
+            }
+          }
+        }
+
+        p {
+          margin-top: 24px;
+          text-align: left;
+          color: $darkgray;
+          line-height: 28px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .travel-places {
+    margin-top: 92px;
+    padding-top: 540px;
+    padding-bottom: 92px;
+    height: 100vh;
+    background: gray;
+    color: $white;
+
+    h1 {
+      font-size: 84px;
+      margin-top: 0;
+      margin-bottom: 48px;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 22px;
+
+      .fa-long-arrow-alt-right {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+.get-started {
+  margin: 92px 0;
+
+  .inputbox {
+    border: 1px solid $blueish;
+    box-shadow: 0 24px 64px $whitesmoke;
+  }
+}

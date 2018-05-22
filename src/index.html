@@ -4,20 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
   <title>Love Travel</title>
 </head>
 <body>
 
   <!-- Intro -->
-  <div class="intro">
+  <section id="intro">
     <nav class="container">
-      <div>
-        <img class="logo" src="" alt="">
+      <div class="logo">
+        <img src="http://via.placeholder.com/48x48" alt="">
         <span>Love Travel</span>
       </div>
-      <div>
-        <button>Login</button>
-        <button>Create account</button>
+      <div class="auth">
+        <button class="btn btn-login">Login</button>
+        <button class="btn btn-create">Create account</button>
       </div>
     </nav>
 
@@ -35,191 +37,216 @@
           <h4>Anywhere</h4>
           <input type="text" placeholder="Where would you like to go?">
         </div>
-        <button>SEARCH</button>
+        <button class="btn">search</button>
       </div>
 
-      <div>
+      <div class="services">
         <div class="col-4">
-          <img src="" alt="house">
-          <h5>Exceptional Houses</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <span>LEARN MORE --></span>
+          <img src="http://via.placeholder.com/64x64" alt="house">
+          <div class="services-text">
+            <h4>Exceptional Houses</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span>learn more <i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
         </div>
         <div class="col-4">
-          <img src="" alt="whatever">
-          <h5>Advice and support</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <span>LEARN MORE --></span>
+          <img src="http://via.placeholder.com/64x64" alt="whatever">
+          <div class="services-text">
+            <h4>Advice and support</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span>learn more <i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
         </div>
         <div class="col-4">
-          <img src="" alt="flag">
-          <h5>Original Experiences</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <span>LEARN MORE --></span>
+          <img src="http://via.placeholder.com/64x64" alt="flag">
+          <div class="services-text">
+            <h4>Original Experiences</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <span>learn more <i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <section id="feature-places">
    <div class="container">
-     <div class="row">
+     <div class="row-1">
        <h2>Feature Places</h2>
-       <div class="places-all">
-         <button>See all --></button>
+       <span>See all <i class="fas fa-long-arrow-alt-right"></i></span>
+     </div>
+     <div class="row-2">
+       <div class="place">
+         <div class="place-image">
+            <div class="place-actions">
+              <i class="far fa-heart"></i>
+              <span>5k Likes</span>
+              <i class="far fa-bookmark"></i>
+            </div>
+         </div>
+         <div class="place-description">
+           <h3>Havelock Island</h3>
+           <p>Havelock island is part of Richie's Archipelago, in India's Andaman Islands. It's known for its dive sites and beaches.</p>
+         </div>
+       </div>
+       <div class="place">
+         <div class="place-image">
+           <div class="place-actions">
+            <i class="far fa-heart"></i>
+            <span>5k Likes</span>
+            <i class="far fa-bookmark"></i>
+           </div>
+         </div>
+         <div class="place-description">
+           <h3>Bali Island</h3>
+           <p>Bali is an Indonesian Island known for its forest and volcanic mountains, iconic rice paddies, beaches and coral reefs.</p>
+         </div>
+       </div>
+       <div class="place">
+         <div class="place-image">
+            <div class="place-actions">
+              <i class="far fa-heart"></i>
+              <span>5k Likes</span>
+              <i class="far fa-bookmark"></i>
+            </div>
+         </div>
+         <div class="place-description">
+           <h3>Matterhorn</h3>
+           <p>The Matterhorn is the mountain of the alps, straddling in the main watershed and border between Switzerland and Italy.</p>
+         </div>
        </div>
      </div>
-     <div class="row">
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Love Heart</i>
-             <span>5k Likes</span>
-             <i>Bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>Havelock Island</h4>
-             <p>Havelock island is part of Richie's Archipelago, in India's Andaman Islands. It's known for its dive sites and beaches.</p>
-           </div>
-         </div>
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Heart</i>
-             <span>5k Likes</span>
-             <i>bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>>Bali Island</h4>
-             <p>Bali is an Indonesian Island known for its forest and volcanic mountains, iconic rice paddies, beaches and coral reefs.</p>
-           </div>
-         </div>
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Love Heart</i>
-             <span>5k Likes</span>
-             <i>Bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>Matterhorn</h4>
-             <p>The Matterhorn is the mountain of the alps, straddling in the main watershed and border between Switzerland and Italy.</p>
-           </div>
-         </div>
-     </div>
-
    </div>
  </section>
 
  <section id="exceptional-houses">
    <div class="container">
-     <div class="row">
+     <div class="row-1">
        <h2>Exceptional Houses</h2>
-       <div class="houses-all">
-         <button>See all --></button>
+       <span>See all <i class="fas fa-long-arrow-alt-right"></i></span>
+     </div>
+     <div class="row-2">
+       <div class="place">
+         <div class="place-image">
+            <div class="place-actions">
+              <i class="far fa-heart"></i>
+              <span>5k Likes</span>
+              <i class="far fa-bookmark"></i>
+            </div>
+         </div>
+         <div class="place-description">
+           <h3>Lake Tahoe</h3>
+           <p>Designed as a two-story getaway for a family of five by Studio-V Interior Design. This rustic modern home is located in Martis Camp.</p>
+         </div>
+       </div>
+       <div class="place">
+         <div class="place-image">
+           <div class="place-actions">
+            <i class="far fa-heart"></i>
+            <span>5k Likes</span>
+            <i class="far fa-bookmark"></i>
+           </div>
+         </div>
+         <div class="place-description">
+           <h3>Vegan Brownie Petit</h3>
+           <p>Vegan Brownie Petit Fours Recipe. Allergy-friendly delicious gluten-free, nut-free vegan brownie petit fours baked.</p>
+         </div>
+       </div>
+       <div class="place">
+         <div class="place-image">
+            <div class="place-actions">
+              <i class="far fa-heart"></i>
+              <span>5k Likes</span>
+              <i class="far fa-bookmark"></i>
+            </div>
+         </div>
+         <div class="place-description">
+           <h3>La Scoula Lusiana</h3>
+           <p>A charmingly converted BnB in Italy's northeast Asiago region, which was once a local schoolhouse Chalkboards.</p>
+         </div>
        </div>
      </div>
-     <div class="row">
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Love Heart</i>
-             <span>5k Likes</span>
-             <i>Bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>Lake Tahoe</h4>
-             <p>Designed as a two-story getaway for a family of five by Studio-V Interior Design. This rustic modern home is located in Martis Camp</p>
-           </div>
-         </div>
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Heart</i>
-             <span>5k Likes</span>
-             <i>bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>>Vegan Brownie Petit</h4>
-             <p>Vegan Brownie Petit Fours Recipe. Allergy-friendly delicious gluten-free, nut-free vegan brownie petit fours baked.</p>
-           </div>
-         </div>
-         <div class="place">
-           <div class="place-image">
-             <img src="" alt="background">
-             <i>Love Heart</i>
-             <span>5k Likes</span>
-             <i>Bookmark</i>
-           </div>
-           <div class="place-description">
-             <h4>La Scoula Lusiana</h4>
-             <p>A charmingly converted BnB in Italy's northeast Asiago region, which was once a local schoolhouse Chalkboards.</p>
-           </div>
-         </div>
-     </div>
-
    </div>
  </section>
 
-  <div class="our-destinations">
-    <div class="">
-      <h2>Our Destinations</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button>More Places</button>
-    </div>
-  </div>
+  <section id="about">
 
-  <div class="client-stories">
-    <h2>Our Client Stories</h2>
-    <span>See all --></span>
-
-    <div class="row">
-      <div class="col-6">
-        <div class="header">
-          <img src="" alt="">
-          <h3>Chegu Lebara</h3>
-          <span>Production Manager</span>
+    <div class="destinations">
+      <div class="container">
+        <div class="info">
+          <h1>Our Destinations</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <button class="btn btn-places">More Places</button>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div class="col-6">
-        <div class="header">
-          <img src="" alt="">
-          <h3>Zihad Islam</h3>
-          <span>Founder & CTO</span>
+    </div>
+
+    <div class="client-stories">
+      <div class="container">
+          <div class="row-1">
+            <h2>Our Client Stories</h2>
+            <span>See all <i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
+          <div class="row-2">
+            <div class="story">
+              <div class="header">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <div class="info">
+                  <h3>Chegu Lebara</h3>
+                  <span>Production Manager</span>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="story">
+              <div class="header">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <div class="info">
+                  <h3>Zihad Islam</h3>
+                  <span>Founder & CTO</span>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <p>pagination/carousel</p>
     </div>
-  </div>
 
-  <div class="waterfall">
-    <h4>BEST TRAVEL PLACES 2017</h4>
-    <h1>Waterfall Iceland</h1>
-    <span>Read the full article --></span>
-  </div>
-
-  <div class="get-started">
-    <div class="inputbox">
-      <div class="inputbox-item">
-        <h4>Name</h4>
-        <input type="text" placeholder="Masudur Rahman">
+    <div class="travel-places">
+      <div class="container">
+        <h2>BEST TRAVEL PLACES 2017</h2>
+        <h1>Waterfall Iceland</h1>
+        <span>Read the full article <i class="fas fa-long-arrow-alt-right"></i></span>
       </div>
-      <div class="inputbox-item">
-        <h4>Email Address</h4>
-        <input type="text" placeholder="vuckovicsava.dev@gmail.com">
-      </div>
-      <button>GET STARTED</button>
     </div>
-  </div>
+
+  </section>
+
+  <section class="get-started">
+    <div class="container">
+      <div class="inputbox">
+        <div class="inputbox-item">
+          <h4>Name</h4>
+          <input type="text" placeholder="Masudur Rahman">
+        </div>
+        <div class="inputbox-item">
+          <h4>Email Address</h4>
+          <input type="text" placeholder="vuckovicsava.dev@gmail.com">
+        </div>
+        <button class="btn">get started</button>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <div class="row">
+    <div class="container">
       <div class="col-3">
-        <img src="" alt="logo">
-        <h4>Love Travel</h4>
-        <ul>
+        <div class="title">
+          <img src="http://via.placeholder.com/48x48" alt="logo">
+          <h4>Love Travel</h4>
+        </div>
+        <ul class="content">
           <li><a href="#">hi@lovetravel.co</a></li>
           <li><a href="#">+48 884 382 983 (Sales)</a></li>
           <li><a href="#">+48 534 205 209 (Office)</a></li>
@@ -227,8 +254,10 @@
         </ul>
       </div>
       <div class="col-3">
-        <h4>Main Categories</h4>
-        <ul>
+        <div class="title">
+          <h4>Main Categories</h4>
+        </div>
+        <ul class="content">
           <li><a href="#">Services</a></li>
           <li><a href="#">Leadership</a></li>
           <li><a href="#">Careers</a></li>
@@ -237,8 +266,10 @@
         </ul>
       </div>
       <div class="col-3">
-        <h4>About</h4>
-        <ul>
+        <div class="title">
+          <h4>About</h4>
+        </div>
+        <ul class="content">
           <li><a href="#">Who we are</a></li>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Faqs</a></li>
@@ -247,9 +278,16 @@
         </ul>
       </div>
       <div class="col-3">
-        <h4>Our Newsletter</h4>
-        <p>Subscribe to our newsletter and we will inform you about newest directory and promotions</p>
-        <input type="email"><span>--></span>
+        <div class="title">
+          <h4>Our Newsletter</h4>
+        </div>
+        <div class="content">
+          <p>Subscribe to our newsletter and we will inform you about newest directory and promotions</p>
+          <div class="input">
+            <input type="email" placeholder="Enter your email">
+            <i class="fas fa-location-arrow"></i>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

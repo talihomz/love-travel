@@ -29,14 +29,10 @@
     }
 
     .auth{
-
-      .btn-login {
-        margin-right: 36px;
-      }
-
       .btn-create {
         border: solid 1px $blueish;
         color: $blueish;
+        margin-right: 36px;
       }
     }
   }
@@ -45,6 +41,7 @@
     color: $white;
     font-size: 84px;
     margin: 3vh 0;
+    font-family: 'Playfair Display', serif;
   }
 
   h2 {
@@ -52,10 +49,11 @@
     font-size: 56px;
     letter-spacing: 2px;
     margin: 0;
+    font-family: 'Playfair Display', serif;
   }
 
   p {
-    color: $white;
+    color: lightgray;
     font-size: 20px;
     line-height: 32px;
   }
@@ -91,6 +89,61 @@
           text-transform: uppercase;
           color: $blueish;
           font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $xs) {
+  #intro {
+    height: auto;
+    padding-bottom: 32px;
+
+    .auth {
+      .btn-create {
+        display: none;
+      }
+    }
+
+    h1 {
+      font-size: 64px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 26px;
+    }
+
+    .services {
+      display: block;
+
+      .col-4 {
+        margin-bottom: 18px;
+        img {
+          width: 64px;
+          height: 64px;
+        }
+
+        .services-text {
+          flex: 3;
+          padding: 0 12px 0;
+
+          p {
+            font-size: 13px;
+            word-spacing: 1px;
+            margin: 6px 0 18px;
+          }
+
+          span {
+            text-transform: uppercase;
+            color: $blueish;
+            font-weight: bold;
+          }
         }
       }
     }

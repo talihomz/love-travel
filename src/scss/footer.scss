@@ -12,7 +12,7 @@ footer {
       img {
         width: 48px;
         height: 48px;
-        margin-right: 16px; 
+        margin-right: 16px;
       }
 
       h4 {
@@ -31,7 +31,7 @@ footer {
 
         li {
           padding: 8px 0;
-          
+
           a {
             text-decoration: none;
             color: $lightgray;
@@ -70,6 +70,55 @@ footer {
           .fa-location-arrow {
             color: $darkgray;
             transform: rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $xs) {
+  footer {
+    margin-bottom: 48px;
+
+    .container {
+      display: block;
+      text-align: center;
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h4 {
+          margin: 18px 0;
+          font-size: 16px;
+        }
+      }
+
+      .col-3 {
+        ul {
+          li {
+            padding: 6px 0;
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .content {
+          p {
+            font-size: 14px;
+          }
+
+          .input {
+            display: flex;
+            padding: 12px;
+            margin-top: 36px;
+
+            input {
+              font-size: 14px;
+            }
           }
         }
       }

@@ -84,3 +84,38 @@
 #exceptional-houses {
   padding: 132px 0;
 }
+
+@media screen and (max-width: $xs) {
+  #exceptional-houses,
+  #feature-places {
+    .row-1 {
+      display: flex;
+      padding: 48px 16px 0;
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+
+    .row-2 {
+      margin-top: 24px;
+      display: block;
+
+      .place {
+        margin: 24px 12px;
+
+        .place-image {
+          height: 55vh;
+        }
+
+        .place-description {
+          padding: 26px 30px 14px;
+        }
+      }
+    }
+  }
+
+  #exceptional-houses {
+    padding: 48px 0;
+  }
+}

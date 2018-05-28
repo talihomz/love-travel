@@ -131,3 +131,117 @@
     box-shadow: 0 24px 64px $whitesmoke;
   }
 }
+
+@media screen and (max-width: $xs) {
+  #about {
+    .destinations {
+      height: 100vh;
+      padding: 64px 0;
+      align-items: center;
+      background: $black;
+      color: $white;
+
+      .info {
+        width: 100%;
+        text-align: center;
+
+        p {
+          text-align: center;
+          line-height: 28px;
+          font-size: 16px;
+        }
+
+        .btn-places {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .client-stories {
+      height: auto;
+      padding-bottom: 32px;
+
+      .row-1 {
+        display: flex;
+        padding: 48px 16px 0;
+
+        h2 {
+          font-size: 22px;
+        }
+      }
+
+      .row-2 {
+        margin-top: 0;
+        display: block;
+
+        .story {
+          border: solid 1px $whitesmoke;
+          padding: 24px;
+          margin: 16px;
+
+          .header {
+            display: block;
+
+            img {
+              display: block;
+              margin: 8px auto 12px;
+            }
+
+            .info {
+              text-align: center;
+              margin-left: 0;
+              display: block;
+
+              h3 {
+                margin: 0;
+                font-size: 20px;
+              }
+
+              span {
+                margin-top: 8px;
+                font-size: 15px;
+                display: block;
+              }
+            }
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .travel-places {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+
+      .container {
+        padding: 0 24px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 48px;
+      }
+
+      h2 {
+        font-size: 14px;
+        font-weight: normal;
+      }
+
+      span {
+        font-size: 18px;
+        font-weight: normal;
+      }
+    }
+  }
+}

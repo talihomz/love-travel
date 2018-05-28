@@ -12,6 +12,10 @@
       margin-right: auto;
       width: 33%;
 
+      h1 {
+        font-family: 'Playfair Display', serif;
+      }
+
       p {
         color: $lightgray;
         text-align: justify;
@@ -22,6 +26,7 @@
       .btn-places {
         padding-left: 0;
         font-size: 20px;
+        font-family: 'Playfair Display', serif;
       }
     }
 
@@ -38,6 +43,7 @@
       h2 {
         flex: 1;
         color: $darkgray;
+        font-family: 'Playfair Display', serif;
       }
 
       span,
@@ -110,6 +116,7 @@
       font-size: 84px;
       margin-top: 0;
       margin-bottom: 48px;
+      font-family: 'Playfair Display', serif;
     }
 
     span {
@@ -228,7 +235,7 @@
       }
 
       h1 {
-        font-size: 48px;
+        font-size: 52px;
         margin-top: 0;
         margin-bottom: 48px;
       }

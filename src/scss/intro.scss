@@ -41,6 +41,7 @@
     color: $white;
     font-size: 84px;
     margin: 3vh 0;
+    font-family: 'Playfair Display', serif;
   }
 
   h2 {
@@ -48,10 +49,11 @@
     font-size: 56px;
     letter-spacing: 2px;
     margin: 0;
+    font-family: 'Playfair Display', serif;
   }
 
   p {
-    color: $white;
+    color: lightgray;
     font-size: 20px;
     line-height: 32px;
   }

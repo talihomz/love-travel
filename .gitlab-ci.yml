@@ -7,7 +7,7 @@ build:
     paths: 
       - ./public/
   script:
-    - sh $APP_PATH/install.sh
+    - sh $APP_PATH/run.sh
    
 # test1:
 #   stage: test

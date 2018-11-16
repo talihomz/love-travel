@@ -27,8 +27,19 @@
       border-radius: 6px;
       flex: 1;
 
+      &:nth-child(1) .place-image {
+        background-image: url("../images/bali.jpg");
+      }
+
+      &:nth-child(2) .place-image {
+        background-image: url("../images/lusiana.jpg");
+      }
+
+      &:nth-child(3) .place-image {
+        background-image: url("../images/tahoe.jpeg");
+      }
+
       .place-image {
-        background-image: url("http://via.placeholder.com/320x440");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

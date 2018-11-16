@@ -1,10 +1,13 @@
 #about {
-
   .destinations {
+    background: url('../images/map.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
     height: 100vh;
     display: flex;
     align-items: center;
-    background: $black;
     color: $white;
 
     .info {
@@ -109,7 +112,11 @@
     padding-top: 540px;
     padding-bottom: 92px;
     height: 100vh;
-    background: gray;
+    background: url('../images/waterfall.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: $white;
 
     h1 {

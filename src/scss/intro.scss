@@ -1,5 +1,9 @@
 #intro {
-  background: $purple-1;
+  background: url('../images/intro-background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-bottom: 64px;
   height: 100vh;
 
@@ -20,6 +24,10 @@
       flex: 1;
       display: flex;
       align-items: center;
+
+      img {
+        height: 36px;
+      }
 
       span {
         color: $white;
